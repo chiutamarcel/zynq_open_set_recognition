@@ -1,0 +1,10 @@
+# Ignore these
+/petalinux_proj
+/Vitis_Libraries
+/zcu102_hw_design
+
+# Ignore everything from hls except source files
+/vitis_hls_project/*
+!/vitis_hls_project/ZCU102_OSR/
+/vitis_hls_project/ZCU102_OSR/*
+!vitis_hls_project/ZCU102_OSR/src/
